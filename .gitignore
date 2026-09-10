@@ -1,0 +1,45 @@
+# Xcode / build
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# Le projet est généré par XcodeGen — ne pas versionner le .xcodeproj
+HanziLock.xcodeproj/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+*.ipa
+*.dSYM.zip
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/keystore.properties
+android/captures/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Python
+__pycache__/
+*.pyc
+android/tools/_hsk_source.json
+android/tools/_fr_cache.json
+
+# Secrets
+*.p8
+*.p12
+*.mobileprovision
+.env

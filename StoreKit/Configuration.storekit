@@ -1,0 +1,68 @@
+{
+  "identifier" : "00000000-0000-0000-0000-000000000000",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "0",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "fr_FR",
+    "_storefront" : "FRA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21000000",
+      "localizations" : [],
+      "name" : "HanziLock Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21000001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Accès complet à HanziLock",
+              "displayName" : "Pro Mensuel",
+              "locale" : "fr_FR"
+            }
+          ],
+          "productID" : "com.antoninclouet.hanzilock.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "21000000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21000002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Accès complet à HanziLock, facturé annuellement",
+              "displayName" : "Pro Annuel",
+              "locale" : "fr_FR"
+            }
+          ],
+          "productID" : "com.antoninclouet.hanzilock.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro Yearly",
+          "subscriptionGroupID" : "21000000",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

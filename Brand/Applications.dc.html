@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+SC:wght@700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{ --paper:#EDE7DC; --paper-soft:#F6F2E9; --ink:#1C1A17; --ink-soft:#5B564C; --seal:#B7301F; --jade:#2F6F5E; --line:rgba(28,26,23,0.14); }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans", sans-serif; }
+  a{ color:var(--seal); } a:hover{ color:#8C2216; }
+</style>
+</helmet>
+
+<div style="width:1000px; height:620px; padding:56px 64px; display:flex; flex-direction:column; gap:30px;">
+
+  <div style="display:flex; justify-content:space-between; align-items:baseline;">
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--seal);">Identité visuelle — La marque en usage</div>
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">05 / 05</div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:26px;">
+
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <div style="font-size:13px; font-weight:600;">Widget écran verrouillé</div>
+      <div style="border-radius:22px; padding:40px 20px; background:linear-gradient(160deg,#141210 0%,#0B0A09 60%,#050504 100%); display:flex; align-items:center; justify-content:center;">
+        <div style="width:100%; max-width:220px; background:rgba(255,255,255,0.14); backdrop-filter:blur(6px); border:1px solid rgba(255,255,255,0.22); border-radius:18px; padding:12px 14px; display:flex; align-items:center; gap:10px;">
+          <div style="font-family:'Noto Serif SC', serif; font-weight:900; font-size:26px; color:#FBF6EE;">谢</div>
+          <div style="display:flex; flex-direction:column; gap:1px;">
+            <div style="font-size:11px; color:rgba(251,246,238,0.88);">xièxie</div>
+            <div style="font-size:11px; color:rgba(251,246,238,0.62);">merci</div>
+          </div>
+        </div>
+      </div>
+      <div style="font-size:11.5px; color:var(--ink-soft); line-height:1.5;">Verre dépoli sur fond encre nocturne — le sceau reste discret, le hanzi porte l'attention.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <div style="font-size:13px; font-weight:600;">Tampon « maîtrisé »</div>
+      <div style="border-radius:22px; padding:30px 20px; background:var(--paper-soft); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; position:relative; height:172px;">
+        <div style="background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px 26px; font-family:'Noto Serif SC', serif; font-weight:900; font-size:34px; color:var(--ink); box-shadow:0 4px 10px rgba(0,0,0,0.06);">朋友</div>
+        <div style="position:absolute; top:26px; right:36px; width:64px; height:64px; border:3px solid var(--seal); border-radius:12px; color:var(--seal); display:flex; align-items:center; justify-content:center; transform:rotate(-14deg); font-family:'Noto Serif SC', serif; font-weight:900; font-size:24px;">已</div>
+      </div>
+      <div style="font-size:11.5px; color:var(--ink-soft); line-height:1.5;">Une carte maîtrisée reçoit un tampon 已 (« fait ») en encre vermillon, incliné comme une vraie estampille — l'équivalent du sceau d'approbation sur une œuvre.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px;">
+      <div style="font-size:13px; font-weight:600;">Icône seule — favicon, avatar</div>
+      <div style="border-radius:22px; padding:30px 20px; background:var(--paper-soft); border:1px solid var(--line); display:flex; align-items:center; justify-content:center; gap:18px; height:172px;">
+        <svg viewBox="0 0 200 200" width="88" height="88"><rect x="6" y="6" width="188" height="188" rx="26" fill="var(--seal)"/><rect x="20" y="20" width="160" height="160" rx="16" fill="none" stroke="var(--paper)" stroke-width="6"/><text x="100" y="136" text-anchor="middle" font-family="'Noto Serif SC', serif" font-weight="900" font-size="106" fill="var(--paper)">印</text></svg>
+        <svg viewBox="0 0 200 200" width="40" height="40" style="border-radius:10px;"><rect x="6" y="6" width="188" height="188" rx="26" fill="var(--seal)"/><rect x="20" y="20" width="160" height="160" rx="16" fill="none" stroke="var(--paper)" stroke-width="6"/><text x="100" y="136" text-anchor="middle" font-family="'Noto Serif SC', serif" font-weight="900" font-size="106" fill="var(--paper)">印</text></svg>
+      </div>
+      <div style="font-size:11.5px; color:var(--ink-soft); line-height:1.5;">La marque reste lisible jusqu'à 16px : le cadre intérieur peut être retiré en très petite taille si le caractère devient flou.</div>
+    </div>
+
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

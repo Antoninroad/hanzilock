@@ -1,0 +1,5 @@
+Première version de HanziLock.
+• Widget écran d'accueil « caractère du jour »
+• Deck HSK1 complet avec répétition espacée
+• Tableau de progression
+• Abonnement Pro pour les révisions illimitées

@@ -1,0 +1,21 @@
+HanziLock helps you learn Chinese characters without trying: a new hanzi appears on your home screen every day, with its pronunciation (pinyin) and its meaning.
+
+FEATURES
+
+• Home screen widget: the character of the day, always in view
+• HSK 1 to 6 vocabulary — nearly 5000 characters, sorted by level
+• Flashcards with spaced repetition (6-box Leitner system)
+• Progress dashboard, level by level
+• Daily reminder at a time you choose
+• Light / dark theme
+• No ads, no trackers, no account: your progress stays on your device
+
+FREE
+
+HSK 1 and 2 (300 words), the widget, 20 reviews per day, the daily reminder.
+
+HANZILOCK PRO
+
+Unlocks all of HSK 1 to 6, unlimited reviews and detailed progress. Monthly or yearly subscription, or a one-time lifetime purchase. Cancel anytime in the Play Store.
+
+Privacy Policy: https://antoninroad.github.io/hanzilock/privacy.html

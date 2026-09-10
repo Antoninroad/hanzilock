@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{ --paper:#EDE7DC; --paper-soft:#F6F2E9; --ink:#1C1A17; --ink-soft:#5B564C; --line:rgba(28,26,23,0.14); }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans", sans-serif; }
+  a{ color:#B7301F; } a:hover{ color:#8C2216; }
+</style>
+</helmet>
+
+<div style="width:900px; height:520px; padding:56px 64px; display:flex; flex-direction:column; gap:28px;">
+
+  <div style="display:flex; justify-content:space-between; align-items:baseline;">
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#B7301F;">Identité visuelle — Système de couleur</div>
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">02 / 05</div>
+  </div>
+
+  <div style="font-family:'Fraunces', Georgia, serif; font-weight:600; font-size:26px;">Papier, encre, sceau, jade</div>
+
+  <div style="display:grid; grid-template-columns:repeat(5, minmax(0,1fr)); gap:18px;">
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div style="height:120px; border-radius:14px; background:#EDE7DC; border:1px solid var(--line);"></div>
+      <div>
+        <div style="font-size:13px; font-weight:600;">Papier</div>
+        <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">#EDE7DC</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4;">Fond principal, cartes claires</div>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div style="height:120px; border-radius:14px; background:#1C1A17;"></div>
+      <div>
+        <div style="font-size:13px; font-weight:600;">Encre</div>
+        <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">#1C1A17</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4;">Texte, traits, fonds sombres</div>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div style="height:120px; border-radius:14px; background:#B7301F;"></div>
+      <div>
+        <div style="font-size:13px; font-weight:600;">Sceau</div>
+        <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">#B7301F</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4;">Couleur signature — CTA, marque, widget</div>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div style="height:120px; border-radius:14px; background:#8C2216;"></div>
+      <div>
+        <div style="font-size:13px; font-weight:600;">Sceau pressé</div>
+        <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">#8C2216</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4;">États actifs / survol du sceau</div>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:12px;">
+      <div style="height:120px; border-radius:14px; background:#2F6F5E;"></div>
+      <div>
+        <div style="font-size:13px; font-weight:600;">Jade</div>
+        <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">#2F6F5E</div>
+        <div style="font-size:11.5px; color:var(--ink-soft); margin-top:4px; line-height:1.4;">Progression, réussite — jamais la marque</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="font-size:12.5px; line-height:1.6; color:var(--ink-soft); border-top:1px solid var(--line); padding-top:18px;">
+    Le sceau (vermillon) reste réservé à la marque, aux appels à l'action et au widget « caractère du jour ». Le jade signale uniquement la progression et la réussite (cartes maîtrisées) — les deux ne se mélangent jamais dans un même composant.
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

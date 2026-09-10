@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+SC:wght@700;900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{ --paper:#EDE7DC; --paper-soft:#F6F2E9; --ink:#1C1A17; --ink-soft:#5B564C; --seal:#B7301F; --line:rgba(28,26,23,0.14); }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans", sans-serif; }
+  a{ color:var(--seal); } a:hover{ color:#8C2216; }
+</style>
+</helmet>
+
+<div style="width:900px; height:760px; padding:56px 64px; display:flex; flex-direction:column; gap:30px;">
+
+  <div style="display:flex; justify-content:space-between; align-items:baseline;">
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--seal);">Identité visuelle — Typographie</div>
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">03 / 05</div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px;">
+
+    <div style="display:flex; flex-direction:column; gap:10px; border-bottom:1px solid var(--line); padding-bottom:24px;">
+      <div style="font-family:'IBM Plex Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft);">Titres — Fraunces</div>
+      <div style="font-family:'Fraunces', Georgia, serif; font-weight:600; font-size:72px; line-height:1;">Aujourd'hui</div>
+      <div style="font-size:12.5px; color:var(--ink-soft);">Medium 500 / Semibold 600 — titres d'écran, nom de marque</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:10px; border-bottom:1px solid var(--line); padding-bottom:24px;">
+      <div style="font-family:'IBM Plex Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft);">Hanzi — Noto Serif SC</div>
+      <div style="font-family:'Noto Serif SC', serif; font-weight:900; font-size:88px; line-height:1;">谢谢</div>
+      <div style="font-size:12.5px; color:var(--ink-soft);">Black 900 — tout affichage de caractère chinois, écran verrouillé compris</div>
+    </div>
+
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px;">
+
+    <div style="display:flex; flex-direction:column; gap:14px; border-bottom:1px solid var(--line); padding-bottom:24px;">
+      <div style="font-family:'IBM Plex Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft);">Interface — IBM Plex Sans</div>
+      <div style="font-size:22px; font-weight:600;">Débloque HanziLock Pro</div>
+      <div style="font-size:15px; font-weight:500; color:var(--ink);">xièxie · merci</div>
+      <div style="font-size:13px; font-weight:400; color:var(--ink-soft); max-width:340px; line-height:1.5;">Ajoute le widget à ton écran verrouillé pour le voir sans ouvrir l'app.</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px; border-bottom:1px solid var(--line); padding-bottom:24px;">
+      <div style="font-family:'IBM Plex Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft);">Données — IBM Plex Mono</div>
+      <div style="font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:34px; font-variant-numeric:tabular-nums;">42 / 150</div>
+      <div style="font-family:'IBM Plex Mono', monospace; font-weight:500; font-size:16px; color:var(--ink-soft);">29,99&nbsp;€ · HSK1</div>
+      <div style="font-size:12.5px; color:var(--ink-soft); line-height:1.5;">Chiffres, prix, pinyin annoté, codes produit</div>
+    </div>
+
+  </div>
+
+  <div>
+    <div style="font-family:'IBM Plex Mono', monospace; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:12px;">Échelle</div>
+    <div style="display:flex; align-items:baseline; gap:24px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'Fraunces', serif; font-weight:600; font-size:40px;">Aa</span><span style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">H1 · 40px</span></div>
+      <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'IBM Plex Sans', sans-serif; font-weight:600; font-size:22px;">Aa</span><span style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">H2 · 22px</span></div>
+      <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'IBM Plex Sans', sans-serif; font-weight:500; font-size:15px;">Aa</span><span style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">Corps · 15px</span></div>
+      <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'IBM Plex Sans', sans-serif; font-weight:400; font-size:12.5px;">Aa</span><span style="font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--ink-soft);">Légende · 12.5px</span></div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

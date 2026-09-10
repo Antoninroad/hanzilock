@@ -1,0 +1,14 @@
+HanziLock est une app de flashcards de vocabulaire chinois (HSK1) avec un widget "caractère du jour" pour l'écran verrouillé et l'écran d'accueil, et un système de répétition espacée (Leitner).
+
+TESTER LE WIDGET
+1. Verrouiller l'iPhone, appui long sur l'écran verrouillé -> Personnaliser -> Écran verrouillé.
+2. Toucher la zone des widgets -> + -> chercher "HanziLock" -> ajouter le widget rectangulaire.
+3. Le caractère du jour s'affiche (identique à l'onglet "Aujourd'hui" de l'app). iOS 17+ requis.
+
+TESTER L'ABONNEMENT
+- La version gratuite limite à 5 révisions/jour (onglet "Cartes"). Au-delà, le paywall s'affiche.
+- Le paywall (HanziLock Pro) propose un abonnement mensuel et annuel, avec titre, durée, prix, fonctionnalités, lien CGU (EULA standard Apple) et lien politique de confidentialité, plus "Restaurer mes achats".
+- Aucun compte de démo n'est nécessaire : utiliser un compte Sandbox App Store standard.
+
+CONFIDENTIALITE
+Aucune donnee collectee. Toute la progression est stockee localement via App Group. Aucun appel reseau hors StoreKit.

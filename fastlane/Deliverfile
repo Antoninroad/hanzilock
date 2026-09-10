@@ -1,0 +1,16 @@
+# Configuration `fastlane deliver` (téléversement des métadonnées + captures).
+# Usage : `fastlane deliver` depuis la racine du projet, après `fastlane deliver init` la 1re fois.
+
+app_identifier("com.antoninclouet.hanzilock")
+# username("antoninclouet922@gmail.com")   # ou connecte-toi via une clé API App Store Connect
+
+# Les métadonnées sont lues depuis fastlane/metadata/, les captures depuis fastlane/screenshots/
+skip_binary_upload(true)          # deliver ne pousse que métadonnées + captures ; le build passe par Xcode/altool
+submit_for_review(false)
+automatic_release(false)
+precheck_include_in_app_purchases(false)
+
+# Décoche quand tes captures sont prêtes :
+skip_screenshots(true)
+
+# Âge / droits — à confirmer dans App Store Connect (questionnaire), pas géré ici.

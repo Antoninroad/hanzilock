@@ -1,0 +1,21 @@
+HanziLock helps you learn Chinese characters without trying: a new hanzi appears on your Lock Screen every day, with its pronunciation (pinyin) and its meaning. You review just by checking the time.
+
+FEATURES
+
+• Lock Screen and Home Screen widgets: the character of the day, always in view
+• Full HSK1 deck (~150 words) grouped by theme: pronouns, verbs, numbers, time, family and more
+• Flashcards with spaced repetition (6-box Leitner system): every card comes back at the right time
+• Progress dashboard: see how many characters you have truly mastered
+• Calm interface inspired by Chinese seals
+• No ads, no trackers, no account: your progress stays on your device
+
+HANZILOCK PRO
+
+The free version allows 5 reviews per day. The Pro subscription unlocks:
+• Unlimited daily reviews
+• Detailed progress tracking
+
+Monthly or yearly subscription, auto-renewing, cancel anytime from your Apple ID settings.
+
+Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://antoninroad.github.io/hanzilock/privacy.html

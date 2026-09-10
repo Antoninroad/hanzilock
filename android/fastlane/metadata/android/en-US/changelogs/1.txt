@@ -1,0 +1,5 @@
+First release of HanziLock.
+• Home screen "character of the day" widget
+• Full HSK1 deck with spaced repetition
+• Progress dashboard
+• Pro subscription for unlimited reviews

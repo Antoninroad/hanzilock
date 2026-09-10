@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HanziLock — un caractère chinois par jour, sur ton écran verrouillé</title>
+<style>
+  :root { --paper:#EDE7DC; --paper-soft:#F6F2E9; --ink:#1C1A17; --ink-soft:#5B564C; --seal:#B7301F; --line:rgba(28,26,23,.14); }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; text-align:center; }
+  main { max-width:620px; margin:0 auto; padding:72px 24px 80px; }
+  .seal { display:inline-flex; align-items:center; justify-content:center; width:88px; height:88px; border-radius:18px; background:var(--seal); color:var(--paper); font-size:2.6rem; font-weight:700; }
+  h1 { font-size:2rem; margin:.6em 0 .2em; }
+  .tagline { color:var(--ink-soft); font-size:1.1rem; }
+  ul { list-style:none; padding:0; margin:2.5em 0; text-align:left; display:inline-block; }
+  li { margin:.6em 0; padding-left:1.6em; position:relative; }
+  li::before { content:"印"; position:absolute; left:0; color:var(--seal); font-weight:700; }
+  a.btn { display:inline-block; margin-top:1em; padding:12px 22px; background:var(--seal); color:var(--paper); text-decoration:none; border-radius:10px; font-weight:600; }
+  footer { margin-top:3em; font-size:.85rem; color:var(--ink-soft); }
+  footer a { color:var(--seal); }
+</style>
+</head>
+<body>
+<main>
+  <div class="seal">印</div>
+  <h1>HanziLock</h1>
+  <p class="tagline">Un caractère chinois par jour, directement sur ton écran verrouillé.</p>
+
+  <ul>
+    <li>Widget écran verrouillé & écran d'accueil — le hanzi du jour sans ouvrir l'app</li>
+    <li>Deck HSK1 complet (~150 mots) avec pinyin et traduction française</li>
+    <li>Répétition espacée (système Leitner) pour ancrer durablement</li>
+    <li>Suivi de progression : combien de caractères tu maîtrises</li>
+    <li>Aucune donnée collectée — tout reste sur ton appareil</li>
+  </ul>
+
+  <p><a class="btn" href="support.html">Support</a></p>
+
+  <footer>
+    <a href="privacy.html">Confidentialité</a> · <a href="terms.html">Conditions</a> ·
+    <a href="support.html">Support</a> ·
+    <a href="mailto:antoninclouet922@gmail.com">antoninclouet922@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
